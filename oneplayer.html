@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="play.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Hit 20 and you win... but roll a 1 and it's GAME OVER!</h2>
+        <p class="banner">Just press the moustache to play!</p>
+        <h3 class="oneScore">0</h3>
+        <div class="dice">
+            <p class="Player1">Player 1</p>
+            <img class="img1" src="dice1.png">
+        </div>
+    </div>
+
+    <div class="bottom">
+        <button type="button" class="button"
+            onClick="oneRoll()">
+            Roll the Dice
+        </button>
+    </div>
+    <div class="bottom">
+        <img class="teeth" src="teeth.png">
+    </div>
+    <audio id="rollSound" src="diceroll.mp3"></audio>
+    <audio id="cheerSound" src="cheer.mp3"></audio>
+    <audio id="awSound" src="aw.mp3"></audio>
+    <audio id="gameboySound" src="gameboy.mp3"></audio>
+    <audio id="nintendoSound" src="nintendo.mp3"></audio>
+    <audio id="ohSound" src="oh.mp3"></audio>
+
+    <script type="text/javascript" src="app.js"></script>
+
+</body>
+</html>
